@@ -1,0 +1,10 @@
+﻿@using Nop.Web.Framework.UI
+@{
+    Layout = "";
+
+}
+
+<a href="@Url.RouteUrl("Plugin.ExternalAuth.Weixin.Login", new { ReturnUrl = HttpContext.Current.Request.QueryString["ReturnUrl"] })" class="am-btn am-btn-secondary">
+    <i class="am-icon-wechat fa-icon-wechat"></i>
+    @T("Plugins.ExternalAuth.Weixin.Login")
+</a>

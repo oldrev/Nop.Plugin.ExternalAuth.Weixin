@@ -1,0 +1,8 @@
+﻿Group: ExternalAuth methods
+FriendlyName: 微信验证插件
+SystemName: ExternalAuth.Weixin
+Version: 1.36
+SupportedVersions: 3.70
+Author: 李维 <oldrev@gmail.com> 
+DisplayOrder: 5
+FileName: Nop.Plugin.ExternalAuth.Weixin.dll
